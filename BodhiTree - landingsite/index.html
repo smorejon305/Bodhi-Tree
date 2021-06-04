@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bodhi Tree</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <!--fontFamily-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100;1,400;1,600;1,700;1,900&family=Raleway:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--cssLink-->
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <!--jsLink-->
+    <script src="src/app.js"></script>
+
+    <!-- fontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/330daf4b01.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+
+        <!--HEADER-->
+
+
+  <div class="bodhiLogoHeader">
+    <img src="src/media/BT_logoCOLOR.svg" alt="BodhiTree Logo" class="BodhiLogoHeader">
+  </div>
+
+
+    <!--NAVBAR-->
+
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-light bg-light navColors"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Bodhi Tree </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span class="fab fa-pagelines navIcon"></span>
+                Counseling Services
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#services">Telehealth</a></li>
+                <li>
+                  <a class="dropdown-item" href="#services">In-person Sessions</a>
+                </li>
+                <li>
+                   <a class="dropdown-item" href="#services">EMDR</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#aboutMe"
+                ><span class="fab fa-pagelines navIcon"></span>About Me</a
+              >
+            </li>
+
+             <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <span class="fab fa-pagelines navIcon"></span> Social Media
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="https://www.facebook.com/Bodhi-Tree-Mental-Health-Counseling-107422288191993" target="_blank"><i class="fab fa-facebook"></i>  Bodhi Tree Mental Health Counseling</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/bodhitreementalhealth/" target="_blank"
+                  ><i class="fab fa-instagram"></i> @BodhiTreeMentalHealth</a></li>
+                  <li> 
+                    <a class="dropdown-item" href="https://www.psychologytoday.com/us/therapists/julie-taft-nyack-ny/861350" target="_blank"><i class="fas fa-brain"></i> Psychology Today Profile</a>
+              </li>
+          </ul>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="mailto:julie@bodhitreemhc.com" target="_blank"
+                ><span class="fab fa-pagelines navIcon"></span> Contact Me
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!--BODY-->
+
+ <img src="src/media/BigTree.jpg" alt="under the leaves of the Bodhi Tree" class="img-bigTree">
+
+    <!---contentCards-->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 cardColor">
+          <a href="#aboutMe">
+          <img
+            src="src/media/undraw_environment_iaus.svg"
+            class="card-img-top"
+            alt="new growth"
+          />
+          <div class="card-body">
+            <h4 class="card-title">About Me</h4>
+            <p class="card-text">
+              <ul>
+                <li class="cardList">
+              Julie Taft 
+              <br />
+              <small> Licensed Mental Health Counselor</small>
+                </li>
+              </ul>
+          
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="#counselingServices">
+          <img
+            src="src/media/undraw_through_the_park_lxnl.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title">Services</h4>
+            <p class="card-text">
+              <ul>
+                <li class="cardList">In-Person Counseling</li>
+                <li class="cardList">TeleHealth Counseling</li>
+                <li class="cardList"> EMDR </li>
+              </ul>
+          
+          </div>
+        </div>
+         </a>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <a href="mailto:julie@bodhitreemhc.com" target="_blank"> 
+          <img
+            src="src/media/undraw_getting_coffee_wntr.svg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title">Book a Consultation</h4>
+            <p class="card-text">
+              <ul>
+                <li class="cardList">
+          Send me a message
+                </li>
+              </ul>
+            </p>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="mainBody">
+       <a id="aboutMe">
+      <span class="fab fa-pagelines leafIcon"></span> About Me
+    </h3>
+
+    <hr class="hrLine" />
+   
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="aboutMe">
+
+              <div class="row">
+            <img src="src/media/2021 Julie Taft Portrait-1.jpg" alt="JTaft" class="aboutPhoto" />
+          </div>
+          
+              <br />
+
+              Julie Taft is a licensed mental health counselor with twenty years
+              of experience working in school, agency, and private practice
+              settings. She has extensive experience working with diverse
+              populations of children, adolescents, and adults. She is trained
+              in EMDR (Eye Movement Desensitization and Reprocessing), an
+              empirically supported treatment for victims of trauma. In the
+              past, she has also worked with substance abuse clients. She has a
+              client-centered approach to counseling and therapy, allowing the
+              client to take an active role in the treatment.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </a>
+    <br />
+
+  <a id="counselingServices">
+    <h3 class="mainBody">
+      <a id="services"></a>
+      <span class="fab fa-pagelines leafIcon"></span> Counseling Services
+    </h3>
+    <hr class="hrLine" />
+    <ul>
+      <li class="fab fa-pagelines leafIcon serviceList">
+        <strong>Counseling Sessions</strong> <small>in Nyack, NY</small>
+      </li>
+      <br />
+      <li class="fab fa-pagelines leafIcon serviceList">
+        <strong>TeleHealth Counseling Sessions</strong>
+        <small>in NY State</small>
+      </li>
+      <br />
+      <li class="fab fa-pagelines leafIcon serviceList">
+        <strong> EMDR </strong> <small>(Eye Movement Desensitization and Reprocessing)</small>
+      </li>
+    </ul>
+
+
+
+
+    
+    <!--googleMap
+    <div>
+      <iframe class = "googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.9958559375023!2d-73.9216143853727!3d41.090937179292446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2ea0e1dd3b13f%3A0xa4efec855aea41a1!2s99%20Main%20St%2C%20Nyack%2C%20NY%2010960!5e0!3m2!1sen!2sus!4v1622500456731!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    </a>
+-->
+    <!--FOOTER-->
+<footer>
+    <hr>
+
+    <div class="container footer">
+  
+      <img src="src/media/BT_logoBW.svg" alt="BodhiTreeLogo" class = "footerLogo">
+ 
+
+
+      <ul >
+  <li > <i class="far fa-building iconSpace"></i> <small> <a href="https://goo.gl/maps/saP5ZTMdVcuWFrmr8" target="_blank"> 99 Main St. Nyack, NY 10960 </a>
+</small> </li>
+  <li > <i class="fas fa-at iconSpace"></i> <small> <a href = "mailto:julie@bodhitreemhc.com" target="_blank"> julie@bodhitreemhc.com </a> </small></li>
+  <li > <i class="fas fa-phone iconSpace"></i><small> <a href="tel: (845) 535-1270 "> (845) 535-1270 </a></small></li>
+</ul>
+
+<ul>
+<li>
+<i class="fab fa-facebook"></i>
+<a href="https://www.facebook.com/Bodhi-Tree-Mental-Health-Counseling-107422288191993" target ="_blank">
+  <small> Bodhi Tree Mental Health Counseling </small>
+  </a>
+</li>
+<li>
+  <i class="fab fa-instagram"></i>
+<a href="https://www.instagram.com/bodhitreementalhealth/" target="_blank"
+><small> @bodhitreementalhealth</small></a>
+</li>
+<li>
+  <a href="https://www.psychologytoday.com/us/therapists/julie-taft-nyack-ny/861350" target="_blank"><small> <i class="fas fa-brain"></i> Psychology Today Profile </small></a>
+</li>
+
+    </div>
+  </div>
+</div>
+
+   <div class="copyright">
+            <i class="far fa-copyright"></i><small> Bodhi Tree 2021 </small>
+          </div>
+
+    </footer>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

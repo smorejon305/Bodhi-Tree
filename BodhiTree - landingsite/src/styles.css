@@ -1,0 +1,250 @@
+/* COLORS */
+
+/*
+navBarColor - #F8F9FA
+off white - #E7E2DC
+ bright tan - #D4AD7E
+ tan - #C6A784
+ muted green - #70877F
+green - #5D6746
+blue - #355070
+brown - #594B3D
+dark grey - #212529
+
+bodhi green - #127C12
+bodhi brown - #610901
+bodhi white - #FFFFFF
+
+see coolers
+dark grey - #47515c
+slate grey - #628395
+slate grey dark - #465963
+pink? - #92374D
+
+*/
+
+/* body  */
+body {
+  background: #f8f9fa;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #212529;
+  font-family: "Montserrat", "Roboto", "Helvetica";
+}
+h1 {
+  font-size: 100px;
+  font-weight: 600;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+h3 {
+  background: #70877f;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+
+/* links */
+a {
+  color: #212529;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #212529;
+}
+a:visited {
+  color: #212529;
+}
+
+ul {
+  padding-left: 0px;
+}
+li {
+  list-style: none;
+  font-family: "Montserrat", "Roboto", "Helvetica";
+}
+
+p {
+  color: #628395;
+}
+
+/* ABOUT */
+
+.aboutMe {
+  color: #212529;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 95%;
+  vertical-align: middle;
+}
+
+.aboutPhoto {
+  border-radius: 5px;
+  box-shadow: #70877f 5px 5px 2px;
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  padding: 0px;
+}
+
+/* Header */
+.BodhiLogoHeader {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.img-bigTree {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* CARDS */
+.card {
+  margin-top: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.card:hover {
+  box-shadow: #212529 3px 3px 3px 3px;
+}
+
+.cardButton {
+  background: whitesmoke;
+  border: solid 1px #296f1d;
+  border-radius: 10px;
+  box-shadow: #6f1813;
+  color: #296f1d;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.cardButton:hover {
+  background: #9ec09c;
+  border: solid 1px #296f1d;
+  color: whitesmoke;
+  transition: ease-in-out 150ms;
+}
+
+.cardColor {
+  background: #ffffff;
+}
+.card-footer {
+  background: #f8f9fa;
+}
+.card-body {
+  color: #212529;
+}
+
+.cardList {
+  text-align: center;
+}
+.card-title {
+  color: #212529;
+  text-align: center;
+}
+
+.card-text {
+  color: #212529;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.copyright {
+  font-size: smaller;
+  text-align: right;
+}
+
+.headerBanner {
+  position: sticky;
+}
+
+.hrLine {
+  color: #5d6746;
+}
+
+.contactForm {
+  border: 2px solid #212529;
+  border-radius: 8px;
+  max-width: 80%;
+  padding: 20px;
+}
+
+.footer {
+  flex-direction: row;
+  text-align: center;
+}
+.footerLogo {
+  display: block;
+  padding: 1 px;
+  position: left;
+  max-height: 80px;
+}
+.form-control {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.googleMap {
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+.mainBody {
+  margin-top: 50px;
+}
+
+.messageBox {
+  height: 120px;
+  max-width: 100%;
+}
+
+.navIcon {
+  padding: 5px;
+}
+
+.serviceList {
+  color: #212529;
+  padding: 20px;
+}
+
+.socialLinks {
+  color: black;
+}
+
+.submitButton {
+  background: #296f1d;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: #212529;
+  color: whitesmoke;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.submitButton:hover {
+  background: #eaf1e9;
+  border: solid #296f1d;
+
+  color: #296f1d;
+  transition: ease-in-out 150ms;
+}
