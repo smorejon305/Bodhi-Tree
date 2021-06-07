@@ -45,12 +45,12 @@ h2 {
 }
 
 h3 {
-  background: #70877f;
+  background: #1c6434;
   color: whitesmoke;
   padding: 20px;
   text-align: center;
 }
-
+s
 /* links */
 a {
   color: #212529;
@@ -89,7 +89,7 @@ p {
 
 .aboutPhoto {
   border-radius: 5px;
-  box-shadow: #70877f 5px 5px 2px;
+  box-shadow: #212529 5px 5px 2px;
   display: block;
   margin: 0 auto;
   max-width: 50%;
@@ -191,15 +191,29 @@ p {
 }
 
 .footer {
-  flex-direction: row;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.footer > * {
+  flex-basis: 100%;
+}
+
+.footerList {
   text-align: center;
 }
+
 .footerLogo {
   display: block;
-  padding: 1 px;
-  position: left;
-  max-height: 80px;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 33%;
+  max-height: auto;
 }
+
 .form-control {
   border: 1px solid black;
   border-radius: 5px;
@@ -245,7 +259,14 @@ p {
 .submitButton:hover {
   background: #eaf1e9;
   border: solid #296f1d;
-
   color: #296f1d;
   transition: ease-in-out 150ms;
+}
+
+.even-columns {
+  display: flex;
+}
+
+.even-columns > * {
+  flex-basis: 100%;
 }
