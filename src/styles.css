@@ -42,6 +42,7 @@ h1 {
 }
 h2 {
   text-align: center;
+  text-decoration: none;
 }
 
 h3 {
@@ -49,6 +50,7 @@ h3 {
   color: whitesmoke;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
 }
 s
 /* links */
