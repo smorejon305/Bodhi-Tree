@@ -50,7 +50,7 @@ h3 {
   padding: 20px;
   text-align: center;
 }
-s
+
 /* links */
 a {
   color: #212529;
@@ -133,7 +133,6 @@ p {
   display: block;
   margin: 0 auto;
   padding: 10px 20px;
-  text-decoration: none;
 }
 
 .cardButton:hover {
@@ -163,7 +162,6 @@ p {
 
 .card-text {
   color: #212529;
-  text-decoration: none;
 }
 
 .container {
@@ -256,7 +254,6 @@ p {
   box-shadow: #212529;
   color: whitesmoke;
   padding: 10px 20px;
-  text-decoration: none;
 }
 
 .submitButton:hover {
