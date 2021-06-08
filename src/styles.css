@@ -59,9 +59,11 @@ a {
 
 a:hover {
   color: #212529;
+  text-decoration: none;
 }
 a:visited {
   color: #212529;
+  text-decoration: none;
 }
 
 ul {
@@ -70,10 +72,12 @@ ul {
 li {
   list-style: none;
   font-family: "Montserrat", "Roboto", "Helvetica";
+  text-decoration: none;
 }
 
 p {
   color: #628395;
+  text-decoration: none;
 }
 
 /* ABOUT */
@@ -161,6 +165,7 @@ p {
 
 .card-text {
   color: #212529;
+  text-decoration: none;
 }
 
 .container {
