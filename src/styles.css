@@ -76,16 +76,18 @@ li {
 
 p {
   color: #628395;
+  font-family: "Montserrat", "Roboto", "Helvetica";
 }
 
 /* ABOUT */
 
 .aboutMe {
   color: #212529;
-  font-size: 20px;
+  font-size: 1.5rem;
   display: inline-block;
   margin: 0 auto;
   max-width: 95%;
+  padding-top: 2.5rem;
   vertical-align: middle;
 }
 
@@ -94,7 +96,7 @@ p {
   box-shadow: #212529 5px 5px 2px;
   display: flex;
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 75%;
   height: auto;
   padding: 0px;
 }
