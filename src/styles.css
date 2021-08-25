@@ -81,6 +81,12 @@ p {
 
 /* ABOUT */
 
+.aboutMeTitle {
+  margin-top: 1.5em;
+  text-align: center;
+  font-weight: 600;
+}
+
 .aboutMe {
   color: #212529;
   font-size: 1.5rem;
