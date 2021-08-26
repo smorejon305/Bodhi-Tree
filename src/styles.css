@@ -46,8 +46,8 @@ body {
   overflow-x: hidden;
 }
 
-.bodyWrapper {
-  margin: 0;
+.imgWrapper {
+  background-image: url(media/BigTree\ optimized.jpg);
 }
 
 h1,
@@ -258,8 +258,9 @@ p {
   max-width: 75%;
 }
 
-.mainBody {
-  margin-top: 50px;
+.mainBodyHeader {
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .messageBox {

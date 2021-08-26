@@ -75,6 +75,7 @@
                 <span class="fab fa-pagelines navIcon"></span>
                 Counseling Services
               </a>
+
               <ul
                 class="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
@@ -88,6 +89,8 @@
                 </li>
               </ul>
             </li>
+
+
             <li class="nav-item">
               <a class="nav-link active" href="#aboutMe"
                 ><span class="fab fa-pagelines navIcon"></span>About Me</a
@@ -120,7 +123,7 @@
 
     <!--BODY-->
 
- <container class="bodyWrapper"><img src="src/media/BigTree optimized.jpg" alt="under the leaves of the Bodhi Tree" class="img-bigTree"></container>
+ <container class="imgWrapper"><img src="src/media/BigTree optimized.jpg" alt="under the leaves of the Bodhi Tree" class="img-bigTree"></container>
 
     <!---contentCards-->
 
@@ -192,12 +195,11 @@
       </div>
     </div>
 
-    <h1 class="mainBody">
+    <h1 class="mainBodyHeader">
        <a id="aboutMe">
       <span class="fab fa-pagelines leafIcon"></span> About Me
     </h1>
 
-    <hr class="hrLine" />
    
       <div class="container">
         <div class="row">
@@ -207,14 +209,14 @@
           </div>
           <div class="row">
           <div class="col">
-            <h2 class="aboutMeTitle">Julie (she/her/hers)</h2>
+            <h2 class="aboutMeTitle">Julie Taft (she/her/hers)</h2>
             <h3 class="aboutMeSubTitle">Mental Health Counselor, LMHC</h3>
             <p class="aboutMe">
 My goal as a therapist is to partner with my clients to help them improve their quality of life. I am a licensed mental health counselor, a certified school counselor, and have been trained in EMDR (Eye Movement Desensitization and Reprocessing), an empirically supported treatment for victims of trauma. With over twenty years of experience working in school, agency, and private practice settings, I have extensive familiarity with diverse populations of children, adolescents, and adults. Using a client-centered approach to counseling and therapy, I want my clients to feel supported, empowered, and encouraged to take an active role in their treatment. 
 
 <p class="aboutMe">Life has a way of keeping us on our toes. Like many others, I have experienced unexpected loss, challenges, and obstacles that have ignited a passion for helping others. I am open, down to earth, and have a geeky sense of humor. I am LGBTQ+ knowledgeable, antiracist, and highly value diversity, equity, and inclusion. </p>
 
-<h2 class="aboutMeTitle">The Bodhi Tree</h2>
+<h2 class="aboutMeTitle" id="about-bodhi-tree">The Bodhi Tree</h2>
 <p class="aboutMe">Many years ago, I learned about the Bodhi tree, and the symbolism resonated with me deeply. The Buddha (sometimes called “the enlightened one”) lived 2,500 years ago. Born a prince, he abandoned luxury when he became aware of the suffering of life. For six years he lived a life of poverty, and nearly died of hunger. Yet, he could not resolve human misery. Then he sat under a fig tree. He remained there for 49 days. When he stood, he thanked the tree for giving him shade, and it was then that he achieved enlightenment. The tree became known as the Bodhi tree – the “tree of enlightenment”.</p>
 <p class="aboutMe">Also called “the tree of awakening”, the Bodhi tree represents life, sorrow, and desire. The tree is seen as a metaphor for the journey to enlightenment, and its leaves are heart shaped. As the seed of the Bodhi tree matures and flourishes, so should the heart. 
   </p>
@@ -231,25 +233,131 @@ This is my goal: to be a steady support for clients on their journeys so they co
     <br />
 
   <a id="counselingServices">
-    <h1 class="mainBody">
+    <h1 class="mainBodyHeader">
       <a id="services"></a>
       <span class="fab fa-pagelines leafIcon"></span> Counseling Services
     </h1>
-    <hr class="hrLine" />
-    <ul>
-      <li class="fab fa-pagelines leafIcon serviceList">
-        <strong>Counseling Sessions</strong> <small>in Nyack, NY</small>
-      </li>
-      <br />
-      <li class="fab fa-pagelines leafIcon serviceList">
-        <strong>TeleHealth Counseling Sessions</strong>
-        <small>in NY State</small>
-      </li>
-      <br />
-      <li class="fab fa-pagelines leafIcon serviceList">
-        <strong> EMDR </strong> <small>(Eye Movement Desensitization and Reprocessing)</small>
-      </li>
-    </ul>
+
+    <div class="servicesList">
+      <ul>
+        <li class="fab fa-pagelines leafIcon serviceList">
+          <strong>Counseling Sessions</strong> <small>in Nyack, NY</small>
+        </li>
+        <br />
+        <li class="fab fa-pagelines leafIcon serviceList">
+          <strong>TeleHealth Counseling Sessions</strong>
+          <small>in NY State</small>
+        </li>
+        <br />
+        <li class="fab fa-pagelines leafIcon serviceList">
+          <strong> EMDR </strong> <small>(Eye Movement Desensitization and Reprocessing)</small>
+        </li>
+      </ul>
+    </div>
+
+    <div class="servicesList">
+      
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Specialties
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <ul>
+          <li>Trauma & PTSD</li>
+          <li>Depression</li>
+          <li>Anxiety</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       Issues
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <ul>
+          <li>ADHD</li>
+          <li>Anger Management</li>
+          <li>Antisocial Personality</li>
+          <li>Autism</li>
+          <li>Behavioral Issues</li>
+          <li>Bipolar Disorder</li>
+          <li>Borderline Personality</li>
+          <li>Child or Adolescent</li>
+          <li>Chronic Illness</li>
+          <li>Chronic Pain</li>
+          <li>Codependency</li>
+          <li>Coping Skills</li>
+          <li>Divorce</li>
+          <li>Domestic Abuse</li>
+          <li>Domestic Violence</li>
+          <li>Emotional Disturbance</li>
+          <li>Family Conflict</li>
+          <li>Grief</li>
+          <li>Life's Transitions</li>
+          <li>Men's Issues</li>
+          <li>Obsessive Compulsive Disorder</li>
+          <li>Parenting</li>
+          <li>Peer Relationships</li>
+          <li>Pregnancy, Prenatal, Postpartum</li>
+          <li>Relationship Issues</li>
+          <li>School Issues</li>
+          <li>Self Esteem</li>
+          <li>Self-Harming</li>
+          <li>Sexual Abuse</li>
+          <li>Stress</li>
+          <li>Transgender</li>
+          <li>Women's Issues</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       Client Focus
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <ul>
+          <li><strong>Age</strong></li>
+          <ul>
+            <li>Adults</li>
+            <li>Adolescents/Teenagers (14 to 19)</li>
+            <li>Preteens/Tweens (11 to 13) </li>
+          </ul>
+          <li><Strong>Communities</Strong>
+            <ul>
+              <li>Bisexual Allied</li>
+              <li>Body Positivity</li>
+              <li>Cancer</li>
+              <li>Gay Allied</li>
+              <li>Lesbian Allied</li>
+              <li>Non-Binary Allied</li>
+              <li>Open Relationships, Non-Monogamy</li>
+              <li>Queer Allied</li>
+              <li>Racial Justice Allied</li>
+              <li>Single Mother</li>
+              <li>Transgender Allied</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+   
 
     <!--FOOTER-->
     <hr>
