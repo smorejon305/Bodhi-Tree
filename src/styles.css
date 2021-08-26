@@ -23,32 +23,48 @@ pink? - #92374D
 
 */
 
+:root {
+  --clr-neutral-100: #f8f9fa;
+  --clr-neutral-200: #f5f5f5;
+  --clr-neutral-800: #212529;
+
+  --clr-green-400: #1c6434;
+
+  --ff-primary: "Montserrat", "Roboto", "Helvetica", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+}
+
 /* body  */
 body {
-  background: #f8f9fa;
+  background-color: var(--clr-neutral-100);
   font-size: 16px;
+  overflow-x: hidden;
+}
+
+.bodyWrapper {
+  margin: 0;
 }
 
 h1,
 h2,
 h3,
-h4 {
-  color: #212529;
-  font-family: "Montserrat", "Roboto", "Helvetica";
+h4,
+h5 {
+  color: var(--clr-neutral-800);
+  font-family: "Montserrat", "Roboto", "Helvetica", sans-serif;
 }
 h1 {
-  font-size: 100px;
-  font-weight: 600;
+  background-color: var(--clr-green-400);
+  color: var(--clr-neutral-200);
+  padding: 1em;
   text-align: center;
 }
 h2 {
-  text-align: center;
-}
-
-h3 {
-  background: #1c6434;
-  color: whitesmoke;
-  padding: 20px;
   text-align: center;
 }
 
@@ -88,13 +104,19 @@ p {
   font-weight: 600;
 }
 
+.aboutMeSubTitle {
+  font-size: 0.8em;
+  font-weight: 200;
+  text-align: center;
+}
+
 .aboutMe {
   color: #212529;
   font-size: 1 em;
   display: inline-block;
   margin: 0 auto;
   max-width: 95%;
-  padding-top: 2.5rem;
+  padding-top: 2em;
   vertical-align: middle;
 }
 
