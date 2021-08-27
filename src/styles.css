@@ -272,9 +272,14 @@ p {
   padding: 5px;
 }
 
-.serviceList {
+.servicesList {
   color: #212529;
+  font-family: var(--ff-primary);
   padding: 20px;
+}
+
+.twoColumns {
+  columns: 2;
 }
 
 .socialLinks {
