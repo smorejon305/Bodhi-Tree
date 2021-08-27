@@ -243,11 +243,17 @@ p {
 .servicesList {
   color: #212529;
   font-family: var(--ff-primary);
+  font-size: 1.3em;
+  text-align: center;
   padding: 20px;
 }
 
 .twoColumns {
   columns: 2;
+}
+
+.spacerElement {
+  margin-top: 2.5em;
 }
 
 /* Send Me a Message */
@@ -257,6 +263,7 @@ p {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
+  margin-top: 2.5em;
   padding: 1em 2em;
 }
 
@@ -268,7 +275,7 @@ p {
 .contactButtonLink {
   color: var(--clr-neutral-200);
   font-family: var(--ff-primary);
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 1em;
   letter-spacing: 0.1em;
 }
