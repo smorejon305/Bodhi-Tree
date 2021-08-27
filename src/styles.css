@@ -21,6 +21,8 @@ slate grey - #628395
 slate grey dark - #465963
 pink? - #92374D
 
+28 100 52 
+
 */
 
 :root {
@@ -28,7 +30,8 @@ pink? - #92374D
   --clr-neutral-200: #f5f5f5;
   --clr-neutral-800: #212529;
 
-  --clr-green-200: #57b894;
+  --clr-green-200: #43b067;
+  --clr-green-300: #35bd62;
   --clr-green-400: #1c6434;
 
   --ff-primary: "Montserrat", "Roboto", "Helvetica", sans-serif;
@@ -279,10 +282,41 @@ p {
   columns: 2;
 }
 
+/* Send Me a Message */
+
+.contactButton {
+  background-color: var(--clr-green-400);
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  padding: 1em 2em;
+}
+
+.contactButton:hover {
+  box-shadow: #212529 3px 3px 3px 3px;
+  transition: ease-in-out 20ms;
+}
+
+.contactButtonLink {
+  font-family: var(--ff-primary);
+  font-size: 1.2em;
+  padding: 1em;
+  letter-spacing: 0.1em;
+}
+
+.contactButtonLink:hover {
+  color: var(--clr-neutral-100);
+
+  color: var(--clr-neutral-200);
+  transition: ease-in-out 20ms;
+}
+
+/* FOOTER */
 .socialLinks {
   color: black;
 }
 
+/* COLUMNS */
 .even-columns {
   display: flex;
 }
