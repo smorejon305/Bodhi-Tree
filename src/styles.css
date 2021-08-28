@@ -168,6 +168,22 @@ p {
 .card-text {
   color: #212529;
 }
+/* COMMUNITY FLAGS ON CARDS */
+.flags {
+  margin: 0 auto;
+}
+
+.communityFlag-cards {
+  display: inline;
+  max-width: 48%;
+  height: auto;
+}
+
+.communityFlag-accordion {
+  display: inline;
+  max-width: 25%;
+  height: auto;
+}
 
 .container {
   display: flex;
