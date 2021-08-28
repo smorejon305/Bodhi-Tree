@@ -240,10 +240,16 @@ p {
   padding: 5px;
 }
 
+.serviceList {
+  color: var(--clr-neutral-800);
+  font-family: var(--ff-primary);
+  font-size: 0.8em;
+}
+
 .servicesList {
   color: #212529;
   font-family: var(--ff-primary);
-  font-size: 1.3em;
+  font-size: 1em;
   text-align: center;
   padding: 20px;
 }
