@@ -76,6 +76,12 @@ p {
   font-weight: 600;
 }
 
+.aboutMeTitle-bodhi {
+  margin-top: 0.5em;
+  text-align: center;
+  font-weight: 600;
+}
+
 .aboutMeSubTitle {
   font-size: 0.8em;
   font-weight: 200;
@@ -102,6 +108,13 @@ p {
   object-fit: cover;
   overflow: hidden;
   padding: 0px;
+}
+
+.treeIcon {
+  font-size: 8em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 /* Header */
@@ -171,10 +184,13 @@ p {
 /* COMMUNITY FLAGS ON CARDS */
 .flags {
   margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .communityFlag-cards {
   display: inline;
+  justify-content: center;
   max-width: 48%;
   height: auto;
 }
@@ -259,7 +275,7 @@ p {
 .serviceList {
   color: var(--clr-neutral-800);
   font-family: var(--ff-primary);
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .servicesList {
