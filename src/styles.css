@@ -188,16 +188,9 @@ p {
   justify-content: center;
 }
 
-.communityFlag-cards {
-  display: inline;
-  justify-content: center;
-  max-width: 48%;
-  height: auto;
-}
-
 .communityFlag-accordion {
   display: inline;
-  max-width: 25%;
+  max-width: 15%;
   height: auto;
 }
 
@@ -252,14 +245,8 @@ p {
   max-height: auto;
 }
 
-.form-control {
-  border: 1px solid black;
-  border-radius: 5px;
-}
-.googleMap {
-  display: block;
-  margin: 0 auto;
-  max-width: 75%;
+.communityFlag {
+  max-width: 20%;
 }
 
 .mainBodyHeader {
