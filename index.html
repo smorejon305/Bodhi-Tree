@@ -90,11 +90,32 @@
               </ul>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link active" href="#rates"
-                ><span class="fab fa-pagelines navIcon"></span>Rates & Insurance</a
+
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
+                <span class="fab fa-pagelines navIcon"></span>
+Rates & Insurance              </a>
+
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#rates">Rates</a></li>
+                <li>
+                  <a class="dropdown-item" href="#insurance">Insurance</a>
+                </li>
+                
+              </ul>
             </li>
+            
 
             <li class="nav-item">
               <a class="nav-link active" href="#aboutMe"
@@ -218,13 +239,10 @@
 
    
       <div class="container">
-        <div class="row">
-          <div class="col">
             <img src="src/media/2021 Julie Taft Portrait-1 optimized.jpg" alt="JTaft" class="aboutPhoto" />
           </div>
           </div>
-          <div class="row">
-          <div class="col">
+      
             <h2 class="aboutMeTitle">Julie Taft (she/her/hers)</h2>
             <h3 class="aboutMeSubTitle">Mental Health Counselor, LMHC</h3>
             <p class="aboutMe">
@@ -401,23 +419,26 @@ This is my goal: to be a steady support for clients on their journeys so they co
       <span class="fab fa-pagelines leafIcon"></span> Rates
     </h1>
 
-    <h2 class="rate">Julie Taft</h3>
+    <h2 class="rate">Julie Taft</h2>
       <p class="rate"> Sessions charged on a sliding scale. Contact Julie for more information.</p>
 
-      <h2 class="rate">Stephen Cheairs</h3>
+      <h2 class="rate">Stephen Cheairs</h2>
         <p class="rate">$65 per session</p>
 
     <h1 class="mainBodyHeader">
       <span class="fab fa-pagelines leafIcon"></span> Insurance
     </h1>
 
+    <a id="insurance"></a>
     <h3 class="insurance">
       We now accept 
       <span ><img src="src/media/Cigna-Logo.png" alt="Cigna health insurance" class="cignaLogo"></span>
     </h3>
 
 
-    <p>We will be accepting most major insurances. Please check back or contact us for more information. </p>
+    <p>We will be accepting most major insurances. </p>
+
+    <p>Please check back or contact us for more information.</p>
     
 
 
