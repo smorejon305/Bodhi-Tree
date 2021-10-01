@@ -268,7 +268,7 @@ p {
 .servicesList {
   color: #212529;
   font-family: var(--ff-primary);
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
   padding: 20px;
 }
@@ -308,7 +308,7 @@ p {
 .contactButtonLink {
   color: var(--clr-neutral-200);
   font-family: var(--ff-primary);
-  font-size: 1em;
+  font-size: .8em;
   padding: 1em;
   letter-spacing: 0.1em;
 }
