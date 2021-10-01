@@ -281,6 +281,14 @@ p {
   margin-top: 2.5em;
 }
 
+/* RATES AND INSURANCE  */
+
+.cignaLogo{
+  max-width: 8ch;  
+  height: auto; 
+}
+
+
 /* Send Me a Message */
 
 .contactButton {
@@ -288,7 +296,7 @@ p {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  margin-top: 2.5em;
+  margin-top: 4em;
   padding: 1em 2em;
 }
 
