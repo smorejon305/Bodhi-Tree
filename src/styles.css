@@ -283,9 +283,11 @@ p {
 
 /* RATES AND INSURANCE  */
 
-.cignaLogo{
+.insuranceLogo{
+  background-color:var(--clr-neutral-100); 
   max-width: 8ch;  
   height: auto; 
+margin: 1em; 
 }
 
 
