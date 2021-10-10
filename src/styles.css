@@ -100,15 +100,31 @@ p {
   vertical-align: middle;
 }
 
-.aboutPhoto {
-  border-radius: 50%;
-  box-shadow: #212529 5px 5px 2px;
- 
-  display: flex;
-  margin: 0 auto;
-  max-width: 60%;
-  height: auto;
+.aboutPhotoContainer-julie{
+  background-image: url(media/2021\ Julie\ Taft\ Portrait-1\ optimized.jpg); 
+  background-size: cover; 
+  background-position: 50% 50%; 
+  max-width: 60%; 
+  height: 60vh; 
+  display: block; 
+  margin: 0 auto; 
+border-radius: 10px; 
 }
+
+.aboutPhotoContainer-stephen{
+  background-image: url(media/Stephen.jpeg); 
+  background-size: cover; 
+  background-position: 50% 30%; 
+  max-width: 60%; 
+  height: 70vh; 
+  display: block; 
+  margin: 0 auto; 
+border-radius: 10px; 
+margin-top: 4em; 
+}
+
+
+
 
 .treeIcon {
   font-size: 8em;
@@ -257,6 +273,10 @@ p {
 
 .navIcon {
   padding: 5px;
+}
+
+.accordion-color{
+  background-color: var(--clr-neutral-100); 
 }
 
 .serviceList {
