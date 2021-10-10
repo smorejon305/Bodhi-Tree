@@ -102,20 +102,22 @@ p {
 
 .aboutPhotoContainer-julie{
   background-image: url(media/2021\ Julie\ Taft\ Portrait-1\ optimized.jpg); 
-  background-size: cover; 
+  background-size: contain; 
+  background-repeat: no-repeat; 
   background-position: 50% 50%; 
-  max-width: 60%; 
-  height: 75vh; 
-  display: block; 
+  max-width: 90%; 
+height: 75vh;   
+display: block; 
   margin: 0 auto; 
 border-radius: 10px; 
 }
 
 .aboutPhotoContainer-stephen{
   background-image: url(media/StephenLMHC.jpg); 
-  background-size: cover; 
+  background-size: contain; 
+  background-repeat: no-repeat; 
   background-position: 50% 30%; 
-  max-width: 60%; 
+  max-width: 95%; 
   height: 75vh; 
   display: block; 
   margin: 0 auto; 
