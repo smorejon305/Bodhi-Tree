@@ -107,10 +107,11 @@ p {
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: 50% 50%; 
-  max-width: 90%; 
-height: 75vh;   
+  max-width: 95%; 
+height: 50vh; 
 display: block; 
   margin: 0 auto; 
+
 }
 
 .aboutPhotoContainer-stephen{
