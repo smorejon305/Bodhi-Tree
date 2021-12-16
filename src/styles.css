@@ -107,6 +107,7 @@ p {
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: 50% 50%; 
+  border-radius: 20px; 
   max-width: 95%; 
 height: 50vh; 
 display: block; 
