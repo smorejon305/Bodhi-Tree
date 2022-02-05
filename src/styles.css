@@ -24,6 +24,16 @@ body {
   font-family: var(--ff-primary); 
 }
 
+.header-socialMediaButtons{
+  display: flex; 
+  align-items: right; 
+  justify-content: right;
+  margin-top: 2em; 
+  margin-right: 1em; 
+}
+
+
+
 h1,
 h2,
 h3,
@@ -151,7 +161,9 @@ margin-top: 4em;
   margin: 0 auto;
   max-width: 100%;
   height: auto;
+
 }
+
 
 /* CARDS */
 .card {
@@ -279,9 +291,7 @@ margin-top: 4em;
 .navIcon {
   padding: 5px;
 }
-.accordion{
-  background-color: var(--clr-neutral-100); 
-}
+
 
 .accordionMenu{
   background-color: var(--clr-neutral-100); 
@@ -301,11 +311,13 @@ margin-top: 4em;
 }
 
 .servicesList {
+  background-color: var(--clr-neutral-100); 
   color: #212529;
   font-family: var(--ff-primary);
   font-size: 1em;
   text-align: center;
   padding: 20px;
+  border-radius: 10px; 
 }
 
 .twoColumns {
