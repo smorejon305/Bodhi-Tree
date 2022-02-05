@@ -24,6 +24,16 @@ body {
   font-family: var(--ff-primary); 
 }
 
+.header-socialMediaButtons{
+  display: flex; 
+  align-items: right; 
+  justify-content: right;
+  margin-top: 2em; 
+  margin-right: 1em; 
+}
+
+
+
 h1,
 h2,
 h3,
