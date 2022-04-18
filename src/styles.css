@@ -80,6 +80,29 @@ p {
   font-family: "Montserrat", "Roboto", "Helvetica";
 }
 
+.topLocationBanner{
+  background: rgb(245,245,245);
+  background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(28,100,52,1) 71%);
+height: 5em; 
+}
+
+.topLocationBanner-graphicText{
+  
+}
+
+h3.locationBanner{
+  display: inline-block; 
+  font-family: var(--ff-primary); 
+  padding: .9em; 
+  color: var(--clr-neutral-200); 
+}
+
+
+.white200{
+  color: var(--clr-neutral-200); 
+ margin: 0 auto; 
+}
+
 /* ABOUT */
 
 .aboutMeTitle {
