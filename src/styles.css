@@ -89,8 +89,10 @@ height: 6em;
 
 
 h3.locationBanner{
+  
   font-family: var(--ff-accent); 
   font-size: 2em; 
+
   padding: .9em; 
   /* background: rgb(199,173,64);
 background: radial-gradient(circle, rgba(199,173,64,1) 0%, rgba(28,100,52,1) 80%); */
