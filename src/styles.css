@@ -32,10 +32,7 @@ body {
   }
 
 .header-socialMediaButtons{
-  color: var(--clr-green-400); 
   text-align: right; 
-  align-items: right; 
-  justify-content: right;
   margin-top: 2em; 
   margin-right: 1em; 
   font-size: 1.5em; 
