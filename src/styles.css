@@ -51,13 +51,15 @@ h5 {
 
 }
 h1 {
-  background-color: var(--clr-green-400);
-  color: var(--clr-neutral-200);
+  background: rgb(245,245,245);
+  background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(28,100,52,1) 100%);
+  color: var(--clr-neutral-800);
   padding: 1em;
   text-align: center;
 }
 h2 {
   text-align: center;
+  
 }
 
 /* links */
@@ -84,7 +86,7 @@ li {
 }
 
 li.navBar-iconContainer{
-  background-img: url(media/BodhiTreeLogo/BT_logo-\ Icon\ -\ COLOR.svg  ); 
+  background-img: url(media/BodhiTreeLogo/BT_logo-\ Tree\ Icon\ -\ COLOR.svg); 
 }
 
 p {
@@ -214,10 +216,9 @@ margin-top: 4em;
 
 .img-bigTree {
   display: block;
-  margin: 0 auto;CSS
+  margin: 0 auto;
   max-width: 100%;
   height: auto;
-
 }
 
 
@@ -339,7 +340,7 @@ margin-top: 4em;
 }
 
 .mainBodyHeader {
-  color: var(--clr-neutral-200);
+  color: var(--clr-neutral-800);
   margin-top: 2em;
   margin-bottom: 1em;
 }
