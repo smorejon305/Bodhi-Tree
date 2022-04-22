@@ -83,6 +83,10 @@ li {
   font-family: var(--ff-primary); 
 }
 
+li.navBar-iconContainer{
+  background-img: url(media/BodhiTreeLogo/BT_logo-\ Icon\ -\ COLOR.svg  ); 
+}
+
 p {
   color: #628395;
   font-family: "Montserrat", "Roboto", "Helvetica";
@@ -115,6 +119,20 @@ background: radial-gradient(circle, rgba(199,173,64,1) 0%, rgba(28,100,52,1) 80%
   color: var(--clr-neutral-200); 
 margin-left: 35%; 
 }
+
+/* second navBar */
+
+.navBar-list{
+  display: flex; 
+}
+
+.navBar-listItem{
+  padding: 1em 2em; 
+}
+
+
+/* end of second navBar */
+
 
 /* ABOUT */
 
@@ -196,7 +214,7 @@ margin-top: 4em;
 
 .img-bigTree {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto;CSS
   max-width: 100%;
   height: auto;
 
