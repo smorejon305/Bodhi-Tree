@@ -444,8 +444,11 @@ margin: 1em;
 /* Send Me a Message */
 
 .contactButton {
-  background-color: var(--clr-green-200);
-  border-radius: 10px;
+  /* background-color: var(--clr-green-200); */
+
+  background: rgb(245,245,245);
+  background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(28,100,52,1) 100%);
+  border-radius: 10px; 
   display: block;
   margin: 0 auto;
   margin-top: 4em;
@@ -460,7 +463,7 @@ margin: 1em;
 .contactButtonLink {
   color: var(--clr-neutral-200);
   font-family: var(--ff-primary);
-  font-size: .8em;
+  font-size: 1em;
   padding: 1em;
   letter-spacing: 0.1em;
 }
