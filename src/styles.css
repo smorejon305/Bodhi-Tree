@@ -190,15 +190,19 @@ margin-right: 25%;
 margin-bottom: 5em; 
 }
 
+
+
+
 .aboutJulie-imageButton{
-  background-image: url(media/ProfilePhotos/2021\ Julie\ Taft\ Portrait-1\ optimized.jpg);
+  background-image: url(media/ProfilePhotos/2021\ Julie\ Taft\ Portrait-square.jpg);
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: 50% 50%; 
   border-radius: 20px; 
-  max-width: 25%; 
+  width: 300px; 
+  height: 300px; 
   margin-left: 20%; 
-height: 20vh; 
+
 display: block; 
 border-radius: 100%; 
 }
