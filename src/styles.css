@@ -191,7 +191,9 @@ margin-bottom: 5em;
 }
 
 
-
+.aboutTeam-buttons-flexContainer{
+  display: flex; 
+}
 
 .aboutJulie-imageButton{
   background-image: url(media/ProfilePhotos/2021\ Julie\ Taft\ Portrait-square.jpg);
@@ -222,8 +224,8 @@ border-radius: 100%;
 
 
 .about-imageButton-captionLink-julie{
-  color: var(--clr-neutral-200); 
-  margin-left: 40%; 
+color: var(--clr-neutral-200); 
+margin-left: 40%; 
 
 }
 
@@ -265,7 +267,6 @@ border-radius: 25px;
   margin: 0 auto; 
 margin-top: 4em; 
 }
-
 
 
 
