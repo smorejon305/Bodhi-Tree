@@ -198,6 +198,15 @@ margin-bottom: 5em;
   overflow-x: hidden;
 }
 
+.about-imageButton{
+  opacity: .6; 
+}
+
+.about-imageButton:hover{
+  opacity: 1; 
+}
+
+
 .aboutJulie-imageButton{
   background-image: url(media/ProfilePhotos/2021\ Julie\ Taft\ Portrait-square.jpg);
   background-size: cover; 
@@ -208,6 +217,7 @@ margin-bottom: 5em;
   height: 300px;
 border-radius: 100%; 
 }
+
 
 .aboutStephen-imageButton{
   background-image: url(media/ProfilePhotos/StephenPortrait-square.jpg); 
@@ -313,7 +323,7 @@ display: block;
 
 .aboutPhotoContainer-stephen{
 border-radius: 25px; 
-  background-image: url(media/ProfilePhotos/StephenLMHC.jpg); 
+  background-image: url(media/ProfilePhotos/StephenPortrait-square.jpg); 
   background-size: contain; 
   background-repeat: no-repeat; 
   background-position: 50% 30%; 
