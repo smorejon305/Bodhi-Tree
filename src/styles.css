@@ -531,6 +531,15 @@ margin-top: 4em;
 
 /* RATES AND INSURANCE  */
 
+h2.rate{
+  margin-top: 1.5em; 
+}
+
+.insurance{
+  margin: 5em 0; 
+  text-align: center; 
+}
+
 .insuranceLogo{
   background-color:var(--clr-neutral-100); 
   max-width: 8ch;  
@@ -540,7 +549,14 @@ margin: 1em;
 
 .rate {
   margin-top: 1em; 
+  text-align: center; 
 }
+
+h3.insurance{
+  margin-top: 2em; 
+  margin-bottom: 3em; 
+}
+
 
 
 /* Send Me a Message */
@@ -554,6 +570,10 @@ margin: 1em;
   margin: 0 auto;
   margin-top: 4em;
   padding: 1em 2em;
+}
+
+.ratesPage-contactButton{
+  margin-bottom: 5em; 
 }
 
 .contactButton:hover {
