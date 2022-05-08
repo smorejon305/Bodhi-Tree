@@ -174,19 +174,22 @@ margin-left: 35%;
 
 .aboutMe {
   color: #212529;
-  font-size: 1em;
+  font-size: 1.2em;
   display: inline-block;
   margin: 0 auto;
   max-width: 95%;
   padding-top: 2em;
   padding-left: 1.5em; 
+  margin-left: 2em; 
+  margin-right: 2em;
   vertical-align: middle;
 }
 
 p.signedJulie{
+  font-size: 1.5em; 
   display: block;
 text-align:end; 
-margin-right: 25%; 
+margin-right: 8em; 
 margin-bottom: 5em; 
 }
 
