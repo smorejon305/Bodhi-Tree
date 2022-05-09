@@ -172,13 +172,12 @@ width: 100%;
 
 h2.navCard-title{
   font-family: var(--ff-primary); 
-  font-size: 1em; 
+  font-size: 2em; 
   padding: 2em 0; 
 }
 
 .navCard-aboutText{
   text-align: center; 
- color: red; 
 }
 
 h3.navCard-clinicianName{
@@ -209,7 +208,6 @@ padding-left: 1em;
 
   h2.navCard-title{
     font-size: .5em; 
-    color: red; 
   }
 
 
