@@ -136,6 +136,58 @@ margin-left: 35%;
 /* end of second navBar */
 
 
+/* new cards for landing page */
+
+.section-navCards{
+  height: 60vh; 
+}
+
+.section-navCards-flexContainer{
+  display: flex; 
+
+}
+
+.navCard{
+  flex-direction: row; 
+  justify-content: space-evenly; 
+  margin: 0 auto; 
+  margin-top: 2em; 
+  width: 30%; 
+  border-radius: 25px; 
+}
+
+.navCard:hover{
+  text-decoration: underline; 
+  width: 33%; 
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(33,37,41,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(33,37,41,0);
+}
+
+.navCard-image{
+
+  width: 100%; 
+
+}
+
+h2.navCard-title{
+  font-family: var(--ff-primary); 
+  font-size: 2em; 
+  padding: 1em; 
+}
+
+h3.navCard-clinicianName{
+  font-size: 1.5em; 
+  text-align: center; 
+}
+
+h4.navCard-clinicianTitle{
+font-size: 1em; 
+text-align: center; 
+}
+
+/* end of new cards for landing page  */
+
+
 /* ABOUT */
 
 .treeIcon {
