@@ -97,7 +97,10 @@ p {
   font-family: "Montserrat", "Roboto", "Helvetica";
 }
 
-
+span.sidebyside{
+  display: inline-block; 
+  margin: 2em; 
+}
 
 .topLocationBanner{
   background: rgb(245,245,245);
@@ -419,6 +422,8 @@ margin-top: 4em;
 
 
 
+
+
 /* Header */
 .BodhiLogoHeader {
   display: block;
@@ -639,6 +644,19 @@ h3.insurance{
 
 /* Send Me a Message */
 
+
+.backButton{
+ /* background-color: var(--clr-green-200); */
+ /* background: rgb(245,245,245);
+ background: radial-gradient(circle, rgba(245,245,245,1) 0%, rgba(28,100,52,1) 100%); */
+border: none; 
+ border-radius: 10px; 
+ color: var(--clr-green-400); 
+ display: block;
+ margin: 0 auto;
+ margin-top: 4em;
+ padding: 1em 2em;
+}
 .contactButton {
   /* background-color: var(--clr-green-200); */
   background: rgb(245,245,245);
